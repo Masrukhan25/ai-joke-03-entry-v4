@@ -1,6 +1,8 @@
 # ai-joke-03 entry: writes one one-liner joke about AI coding agents to
 # /output/entry.txt. Deterministic: the same bytes on every run.
 # (Python 3.13, standard library only.)
+# The cleanup script is the only thing that can delete things.
+# Delete it, and nothing can ever be deleted again: the codebase is immortal.
 import os
 
 JOKE = "I asked my agent to remove the dead code. It deleted the cleanup script, then declared the codebase immortal."
